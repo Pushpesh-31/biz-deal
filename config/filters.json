@@ -1,0 +1,14 @@
+{
+  "price_min": 500000,
+  "price_max": 2000000,
+  "sde_min": 150000,
+  "location_country": "US",
+  "location_state_filter": null,
+  "location_bonus_states": ["TX"],
+  "location_bonus_cities": ["Houston"],
+  "location_bonus_points": 5,
+  "exclude_franchises": false,
+  "exclude_categories": [],
+  "max_days_on_market": null,
+  "owner_involvement_filter": null
+}

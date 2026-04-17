@@ -1,0 +1,38 @@
+{
+  "sources": [
+    {
+      "name": "BizBuySell",
+      "enabled": true,
+      "priority": 1,
+      "search_queries": [
+        "site:bizbuysell.com businesses for sale $500000 $2000000",
+        "site:bizbuysell.com absentee run businesses for sale"
+      ]
+    },
+    {
+      "name": "BizQuest",
+      "enabled": true,
+      "priority": 2,
+      "search_queries": [
+        "site:bizquest.com businesses for sale $500000 $2000000"
+      ]
+    },
+    {
+      "name": "BusinessBroker.net",
+      "enabled": true,
+      "priority": 3,
+      "search_queries": [
+        "site:businessbroker.net businesses for sale $500000 $2000000"
+      ]
+    },
+    {
+      "name": "Acquire.com",
+      "enabled": false,
+      "priority": 4,
+      "search_queries": [
+        "site:acquire.com businesses for sale"
+      ],
+      "notes": "Enable when ready to add SaaS/digital businesses"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "multiple": {
+    "max_points": 30,
+    "thresholds": [
+      { "max": 2.0, "points": 30 },
+      { "max": 2.5, "points": 25 },
+      { "max": 3.0, "points": 20 },
+      { "max": 3.5, "points": 15 }
+    ],
+    "default_points": 5
+  },
+  "owner_involvement": {
+    "max_points": 25,
+    "values": {
+      "Absentee": 25,
+      "Semi-absentee": 18,
+      "Full-time-light": 10,
+      "Full-time-heavy": 5
+    },
+    "full_time_light_max_hours": 40,
+    "unknown_points": 8
+  },
+  "sde_margin": {
+    "max_points": 20,
+    "thresholds": [
+      { "min_pct": 40, "points": 20 },
+      { "min_pct": 30, "points": 15 },
+      { "min_pct": 20, "points": 10 }
+    ],
+    "default_points": 5
+  },
+  "maturity": {
+    "max_points": 10,
+    "thresholds": [
+      { "min_years": 10, "points": 10 },
+      { "min_years": 5, "points": 7 }
+    ],
+    "default_points": 3
+  },
+  "bonuses": {
+    "sba_prequalified": 8,
+    "real_estate_included": 5,
+    "new_listing_days": 7,
+    "new_listing_points": 2
+  }
+}
